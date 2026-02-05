@@ -1,0 +1,7 @@
+FRAUD_THRESHOLD = 0.30
+
+RISK_LEVELS = {
+    "LOW": 0.10,
+    "MEDIUM": 0.30,
+    "HIGH": 1.00
+}
