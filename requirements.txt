@@ -1,55 +1,147 @@
-# =========================
-# Core backend
-# =========================
+aiohappyeyeballs==2.6.1
+aiohttp==3.12.13
+aiosignal==1.3.2
+alembic==1.17.2
+altair==5.5.0
+annotated-doc==0.0.4
+annotated-types==0.7.0
+anyio==4.9.0
+async-timeout==5.0.1
+attrs==25.3.0
+bidict==0.23.1
+blinker==1.9.0
+cachetools==6.1.0
+calc==1.0
+certifi==2025.6.15
+charset-normalizer==3.4.2
+click==8.2.1
+colorama==0.4.6
+contourpy==1.3.3
+cycler==0.12.1
+dataclasses-json==0.6.7
+defusedxml==0.7.1
+deprecation==2.1.0
+distro==1.9.0
+dnspython==2.8.0
+docx==0.2.4
+email-validator==2.3.0
+et_xmlfile==2.0.0
 fastapi==0.128.1
-uvicorn==0.40.0
-starlette==0.50.0
+fonttools==4.58.5
+fpdf==1.7.2
+fpdf2==2.8.3
+frozenlist==1.7.0
+gitdb==4.0.12
+GitPython==3.1.44
+gotrue==2.12.3
+granian==2.6.0
+greenlet==3.2.3
+groq==0.29.0
+h11==0.16.0
+h2==4.2.0
+hpack==4.1.0
+httpcore==1.0.9
+httpx==0.28.1
+httpx-sse==0.4.1
+hyperframe==6.1.0
+idna==3.10
+Jinja2==3.1.6
+joblib==1.5.3
+jsonpatch==1.33
+jsonpointer==3.0.0
+jsonschema==4.24.0
+jsonschema-specifications==2025.4.1
+kiwisolver==1.4.8
+langchain==0.3.26
+langchain-community==0.3.26
+langchain-core==0.3.67
+langchain-groq==0.3.5
+langchain-text-splitters==0.3.8
+langgraph==0.5.0
+langgraph-checkpoint==2.1.0
+langgraph-prebuilt==0.5.1
+langgraph-sdk==0.1.72
+langsmith==0.4.4
+lxml==6.0.0
+Mako==1.3.10
+markdown-it-py==4.0.0
+MarkupSafe==3.0.2
+marshmallow==3.26.1
+matplotlib==3.10.3
+mdurl==0.1.2
+multidict==6.6.2
+mypy_extensions==1.1.0
+mysql-connector==2.2.9
+mysql-connector-python==9.4.0
+narwhals==1.46.0
+numpy==2.1.3
+openpyxl==3.1.5
+orjson==3.10.18
+ormsgpack==1.10.0
+packaging==24.2
+pandas==2.2.3
+pillow==11.3.0
+platformdirs==4.5.0
+postgrest==1.1.1
+propcache==0.3.2
+protobuf==6.31.1
+psutil==7.1.3
+pyarrow==20.0.0
 pydantic==2.11.7
 pydantic-settings==2.10.1
+pydantic_core==2.33.2
+pydeck==0.9.1
+Pygments==2.19.2
+PyJWT==2.10.1
+pyparsing==3.2.3
+python-dateutil==2.9.0.post0
+python-docx==1.2.0
 python-dotenv==1.1.1
+python-engineio==4.12.3
 python-multipart==0.0.20
-anyio==4.9.0
-click==8.2.1
-h11==0.16.0
-
-# =========================
-# ML stack (MATCHES TRAINING)
-# =========================
-numpy==2.1.3
-pandas==2.2.3
-scikit-learn==1.6.1
-scipy==1.11.4
-joblib==1.5.3
-threadpoolctl==3.6.0
-
-# =========================
-# Visualization / frontend
-# =========================
-streamlit==1.52.1
-matplotlib==3.8.4
-seaborn==0.13.2
-altair==5.5.0
-
-# =========================
-# HTTP & utils
-# =========================
+python-socketio==5.15.0
+python-utils==3.9.1
+pytz==2025.2
+PyYAML==6.0.2
+realtime==2.5.3
+redis==7.1.0
+referencing==0.36.2
+reflex==0.8.21
+reflex-hosting-cli==0.1.59
 requests==2.32.4
-httpx==0.28.1
-orjson==3.10.18
+requests-toolbelt==1.0.0
 rich==14.2.0
-
-# =========================
-# Groq / LLM
-# =========================
-groq==0.29.0
-langchain==0.3.26
-langchain-core==0.3.67
-langchain-community==0.3.26
-langchain-groq==0.3.5
-
-# =========================
-# Misc safe deps
-# =========================
-typing_extensions==4.14.0
-packaging==24.2
+rpds-py==0.26.0
+scikit-learn==1.6.1
+scipy==1.17.0
+seaborn==0.13.2
+simple-websocket==1.1.0
 six==1.17.0
+smmap==5.0.2
+sniffio==1.3.1
+SQLAlchemy==2.0.41
+sqlmodel==0.0.27
+starlette==0.50.0
+storage3==0.12.0
+streamlit==1.52.1
+StrEnum==0.4.15
+supabase==2.16.0
+supafunc==0.10.1
+tenacity==9.1.2
+threadpoolctl==3.6.0
+toml==0.10.2
+tornado==6.5.1
+typing-inspect==0.9.0
+typing-inspection==0.4.1
+typing_extensions==4.14.0
+tzdata==2025.2
+urllib3==2.5.0
+uvicorn==0.40.0
+watchdog==6.0.0
+watchfiles==1.1.1
+websockets==15.0.1
+wrapt==2.0.1
+wsproto==1.3.2
+xxhash==3.5.0
+yarl==1.20.1
+zstandard==0.23.0
